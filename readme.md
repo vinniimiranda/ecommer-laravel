@@ -1,31 +1,25 @@
 # Installation
 ## Prepare
 ```sh
-  # Clone
-  $ git clone https://github.com/biswassampad/laravel-5.6-with-Materialize-1.0.0-rc.2.git materialize
-
-  $ cd materialize
-
-  # Install dependencies
+  # Instalação de dependências
   $ composer install
 
-  # Configure .env and generate key
+  # Configure .env e gere a chave
   $ cp .env.example .env
   $ php artisan key:generate
 ```
 
 ## Compile assets
 ```sh
-  # Install packages
+  # Instalar packages
   $ npm install
 
-  # Run all mix tasks
+  # Rodar tarefas
   $ npm run dev
 
-  # Or mix using this, to watch all relevant files for changes
-  $ npm run watch
+  
 ```
-## Run
+## Rode 
 ```sh
   $ php artisan serve
 
