@@ -23,9 +23,14 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <style>
+        .btn{
+        border-radius: 50px;
+    }
+    </style>
 </head>
 
-<body>
+<body ondragstart='return false' onselectstart='return false'>
     <div id="app">
 
     </div>
@@ -42,7 +47,7 @@
 <script>
     $(document).ready(function () {
         $('.sidenav').sidenav();
-        $('h3').show(4000);
+        $('h3').show(2000);
 
     });
 

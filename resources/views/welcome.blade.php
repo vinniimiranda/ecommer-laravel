@@ -83,7 +83,8 @@
 
             <div class="content">
                 <div class="row">
-                    <h3 class='center-align' style='font-weight: bold; color: #26a69a;' >Loja de ecommerce</h3>
+                <img src="{!! asset('img/logo.png') !!}" width="50%">
+                    <h3 class='center-align' style='font-weight: bold; color: rgb(248, 157, 28)' >Minha loja</h3>
                 </div>
 
 
