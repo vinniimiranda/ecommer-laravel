@@ -1,4 +1,4 @@
-
+<nav>
     <div class='col s3'>
             <a onClick="abre()" ><i class="material-icons" style="padding-left: 10px; cursor:pointer">menu</i></a>
     </div>
@@ -8,7 +8,7 @@
             <li><a href="/usuarios"><i class='small material-icons' >chevron_right</i>Adm usuarios</a></li>
         </ul>
     </div>
-
+</nav>
 <style>
     a, i {
         color: #26a69a !important;

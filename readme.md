@@ -1,27 +1,26 @@
-# Installation
-## Prepare
+# Instalação
+## Preparando
 ```sh
   # Instalação de dependências
-  $ composer install
+  composer install
 
-  # Configure .env e gere a chave
-  $ cp .env.example .env
-  $ php artisan key:generate
+  # Gerar chave
+  php artisan key:generate
 ```
 
-## Compile assets
+## Compilando assets
 ```sh
   # Instalar packages
-  $ npm install
+  npm install
 
   # Rodar tarefas
-  $ npm run dev
+  npm run dev
 
   
 ```
-## Rode 
+## Iniciando servidor 
 ```sh
-  $ php artisan serve
+  php artisan serve
 
-  # Go to 127.0.0.1:8000
+  # Navegue até 127.0.0.1:8000
 ```
